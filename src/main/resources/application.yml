@@ -1,0 +1,27 @@
+#spring.data.mongodb.uri=mongodb+srv://ujjwalmishra1808:k4oWLntGcXbv6b0n@cluster0.w9ok0hv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.database=journald
+#spring.data.mongodb.auto-index-creation=true
+#server.port=8081
+#server.servlet.context-path=/journal
+#spring.main.allow-circular-references=true
+
+
+
+spring:
+  main:
+    allow-circular-references: true
+  data:
+    mongodb:
+      uri: mongodb+srv://ujjwalmishra1808:k4oWLntGcXbv6b0n@cluster0.w9ok0hv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journald
+      auto-index-creation: true
+
+
+Server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+
+
